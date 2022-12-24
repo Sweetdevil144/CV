@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My contact details</title>
+</head>
+<body>
+ <h2>My Contact Details : </h2> <br>
+ <hr size="3" noshade="">
+   <ul>
+     <li>My Phone Number : +917068192135</li>
+     <li>My personal e-mail I'd : abhinavpandey1230@gmail.com</li>
+     <li>My business e-mail I'd : abhinav.pandey.met22@itbhu.ac.in</li>
+   </ul> 
+   <hr size="3" noshade="">
+   <br>
+   <form action="mailto:abhinavpandey1230@gmail.com" method="post" enctype="text/plain">
+      <!-- <form></form> element is used to create a form as we did. It has various sub-elements defined so that we can insert the data type which we like. -->
+      <!-- <action> defines what should happen when you click on sumbit button, i.e , takes the user to the desired page whose link is put in the action attribute. <meathod> = "post" simply means that we're going to transfer what the user types in input is going to get transferred in <action> .-->
+      <!-- mailto:mail@gmail.com defines where the submit button will be directed to. -->
+      <!-- Using enctype, we say that the data which we are using is in plain text form. -->
+      <table >
+       <tr>
+         <td><label for=""><strong>Enter Your Name :</strong></label></td>
+         <td> <input type="text" name="YourName"> </td>
+         <!-- We give a value to name at each attributes because that's going to identify any of these inputs. However, Generally we do not use this. -->
+       </tr>
+       <tr>
+         <td> <label for=""><strong>Enter Your Email :</strong></label></td>
+         <td><input type="email" name="YourEmail" id=""></td>
+       </tr>
+       <tr>
+         <td><label for=""><strong>Enter Your Message :</strong></label></td>
+         <td> <textarea name="YourMessage" id="" cols="16" rows="10"></textarea></td>
+          <!-- textarea is used to create a bigger message box of user-defined size. -->
+       </tr>
+       <tr>
+         <td></td>
+         <td><input type="submit" id=""></td>
+       </tr>
+     </table>
+   </form>
+</body>
+</html>
