@@ -1,0 +1,32 @@
+body {
+    background-color:#EAFDFC;
+    display:block;
+  }
+
+  /* Changed the style of entire body at once. */
+  hr {
+    /* background-color:rgba(24, 119, 214, 0.717); */
+    border-style: none;
+    border-top-style:dotted ;
+    border-color:rgb(142, 170, 150);
+    border-width: 5px;
+    border-radius: 0.1cm;
+    height:2px;
+    width: 10%;
+  }
+  table {
+    /* background-color:hsl(163, 100%, 91%); */
+    border-radius: 0.3cm;
+  }
+   img {
+    height: 7cm;
+   }
+   h1 {
+      color: #66bfbf;
+   }
+   h3 {
+     color:#66bfbf;
+   }
+  /* Using this section, we changed the layout and style of all <hr> elements at once. */
+
+  /* We have written a set of CSS Code in curly braces. */
